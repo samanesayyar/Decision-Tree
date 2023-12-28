@@ -1,0 +1,77 @@
+Section A
+confusion_matrix: 
+[[  4   1   2   0]
+ [  2   2   2   2]
+ [  1   3  29   7]
+ [  1   2   7 108]]
+classification report: 
+              precision    recall  f1-score   support
+
+           1       0.50      0.57      0.53         7
+           2       0.25      0.25      0.25         8
+           3       0.72      0.72      0.73        40
+           4       0.92      0.92      0.92       118
+
+   micro avg       0.83      0.83      0.83       173
+   macro avg       0.60      0.62      0.61       173
+weighted avg       0.83      0.83      0.83       173
+
+Section B 1
+confusion_matrix: 
+[[  3   1   3   0]
+ [  0   6   1   1]
+ [  0   2  32   6]
+ [  0   0   9 109]]
+classification report: 
+              precision    recall  f1-score   support
+
+           1       1.00      0.43      0.60         7
+           2       0.67      0.75      0.71         8
+           3       0.71      0.80      0.75        40
+           4       0.94      0.92      0.93       118
+
+   micro avg       0.87      0.87      0.87       173
+   macro avg       0.83      0.73      0.75       173
+weighted avg       0.88      0.87      0.87       173
+
+5-fold crass validation
+1 Accuracy: 0.702 (+/- 0.03)
+2 Accuracy: 0.775 (+/- 0.02)
+3 Accuracy: 0.788 (+/- 0.02)
+4 Accuracy: 0.828 (+/- 0.03)
+5 Accuracy: 0.858 (+/- 0.03)
+6 Accuracy: 0.910 (+/- 0.03)
+7 Accuracy: 0.920 (+/- 0.01)
+8 Accuracy: 0.958 (+/- 0.03)
+9 Accuracy: 0.967 (+/- 0.02)
+10 Accuracy: 0.973 (+/- 0.02)
+11 Accuracy: 0.978 (+/- 0.02)
+12 Accuracy: 0.978 (+/- 0.02)
+13 Accuracy: 0.977 (+/- 0.02)
+14 Accuracy: 0.977 (+/- 0.02)
+15 Accuracy: 0.976 (+/- 0.02)
+16 Accuracy: 0.977 (+/- 0.02)
+17 Accuracy: 0.977 (+/- 0.02)
+18 Accuracy: 0.979 (+/- 0.02)
+19 Accuracy: 0.977 (+/- 0.02)
+Result
+Best depth :  18  With Mean Score:  0.9794170729177472
+Result
+best depth :  18  with  0.9794170729177472
+confusion_matrix: 
+[[  7   0   0   0]
+ [  0   7   1   0]
+ [  0   0  39   1]
+ [  0   0   1 117]]
+classification report: 
+              precision    recall  f1-score   support
+
+           1       1.00      1.00      1.00         7
+           2       1.00      0.88      0.93         8
+           3       0.95      0.97      0.96        40
+           4       0.99      0.99      0.99       118
+
+   micro avg       0.98      0.98      0.98       173
+   macro avg       0.99      0.96      0.97       173
+weighted avg       0.98      0.98      0.98       173
+
