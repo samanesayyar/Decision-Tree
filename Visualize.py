@@ -8,7 +8,6 @@ import matplotlib.pyplot as plt
 
 from final.Prune import Prune
 
-
 class Visualize:
 
     def save_tree(self, tree, fn="dt", features=[]):
