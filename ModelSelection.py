@@ -1,8 +1,6 @@
 
 from sklearn.model_selection import KFold, cross_val_score
 import matplotlib.pyplot as plt
-
-
 class ModelSelection:
 
     def cross_validation(self, clf, X_train, y_train, log_file_name):
