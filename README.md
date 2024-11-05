@@ -1,5 +1,3 @@
 # Decision Tree
  Decisiontree
 
-
-
